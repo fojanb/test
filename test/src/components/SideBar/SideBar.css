@@ -1,0 +1,31 @@
+.SideBarStyles {
+  display: grid;
+  grid-template-columns: repeat(1, 250px);
+  grid-template-rows: repeat(10, 10vh);
+  background-color: #1b263b;
+  width: 250px;
+  font-family: "Jost", sans-serif;
+  color: whitesmoke;
+  padding: 25px;
+}
+.SideBarStyles > h3 {
+    border-bottom:2px solid white;
+}
+
+.SideBarStyles > items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 10px;
+  padding: 20px;
+}
+
+.items:hover {
+  color: #778da9;
+  font-weight: bolder;
+  height: 50px;
+  cursor: pointer;
+}
