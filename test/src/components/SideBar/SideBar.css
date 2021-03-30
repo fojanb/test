@@ -9,7 +9,7 @@
   padding: 35px;
 }
 .SideBarStyles > h3 {
-    border-bottom:2px solid #778da9;
+    border-bottom:2px solid rgb(204, 180, 135);
 }
 
 .SideBarStyles > items {
@@ -24,7 +24,7 @@
 }
 
 .items:hover {
-  color: #778da9;
+  color: rgb(204, 180, 135);
   font-weight: bolder;
   height: 50px;
   cursor: pointer;
