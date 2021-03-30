@@ -3,16 +3,17 @@ import Card from "../Card/Card";
 import "./CardCreator.css";
 class CardCreator extends Component {
   state = { showCard: false, title: "" };
-  //---------------------Event Handlers Start--------------------------
+  //---------------------Event Handlers Start------------------------
   AddCardHandler = () => {
     let doesShow = this.state.showCard;
     this.setState({ showCard: !doesShow });
   };
 
-  //---------------------Event Handlers End----------------------------
+  //---------------------CallBack Handler----------------------------
   callbackFunction = (childData) => {
     this.setState({ title: childData });
   };
+  //-----------------------------------------------------------------
   render() {
     let card = null;
     if (this.state.showCard) {
