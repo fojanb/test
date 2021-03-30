@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Card from "../Card/Card";
-import { MContext } from "../ContextAPI/ContextAPI";
 import "./CardCreator.css";
 class CardCreator extends Component {
   state = { showCard: false, title: "" };
@@ -26,12 +25,9 @@ class CardCreator extends Component {
 
     return (
       <div>
-        <MContext.Consumer>
-          <div className="CardCreator">
-            <button onClick={this.AddCardHandler}>Create Card</button>
-          </div>
-        </MContext.Consumer>
-
+        <div className="CardCreator">
+          <button onClick={this.AddCardHandler}>Create Card</button>
+        </div>
         {card}
       </div>
     );
