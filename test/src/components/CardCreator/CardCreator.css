@@ -4,6 +4,8 @@
   font-weight: bold;
   border-radius: 3px;
   margin-top: 50px;
+  color:rgb(204, 180, 135);
+  background-color: honeydew;
 }
 .CardCreator > button:hover {
   background-color: #778da9;
