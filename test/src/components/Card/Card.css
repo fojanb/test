@@ -7,17 +7,31 @@
   width: 250px;
   padding: 5px;
   margin-top: 20px;
-  box-shadow: 2px 2px 2px 2px  rgb(171, 189, 196);
+  box-shadow: 2px 2px 2px 2px rgb(211, 215, 218);
   background-color: honeydew;
   padding: 10px 12px;
 }
 
 .Card > button {
-  width: min-content;
+  width: 50px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  border-radius: 3px;
+  color: rgb(204, 180, 135);
+  background-color: #d9f5d7;
+  text-align: center;
 }
-.Card > input{
-    border: none;
-    padding: 10px;
-    background-color: #d7fcd4;
-
+.Card > button:hover {
+    background-color: #778da9;
+    cursor: pointer;
+    box-shadow: 1px 1px rgb(88, 87, 87);
+    font-weight: bolder;
+    color: whitesmoke;
+  
+  }
+.Card > input {
+  border: none;
+  padding: 10px;
+  background-color: #d9f5d7;
 }
