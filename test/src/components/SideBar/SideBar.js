@@ -9,6 +9,7 @@ class SideBar extends Component {
         <div className="items">test #1</div>
         <div className="items">test #2</div>
         <div className="items">test #3</div>
+        <div id="newCardName"></div>
       </div>
     );
   }
