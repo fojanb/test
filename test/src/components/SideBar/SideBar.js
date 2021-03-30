@@ -6,9 +6,9 @@ class SideBar extends Component {
     return (
       <div className="SideBarStyles">
         <h3>Side Bar Component</h3>
-        <div className="items">test #1</div>
-        <div className="items">test #2</div>
-        <div className="items">test #3</div>
+        <div className="items">Stats</div>
+        <div className="items">Settings</div>
+        <div className="items">Payment</div>
         <div id="newCardName"></div>
       </div>
     );
