@@ -11,13 +11,13 @@
   background-color: honeydew;
   padding: 10px 12px;
 }
-.Card > h3 {
-  background-color: rgb(204, 180, 135);
-  padding: 20px;
-  color: whitesmoke;
-  border-radius: 4px;
 
-}
 .Card > button {
   width: min-content;
+}
+.Card > input{
+    border: none;
+    padding: 10px;
+    background-color: #d7fcd4;
+
 }
