@@ -6,7 +6,8 @@ class Card extends Component {
         return (  
             <div className="Card">
                 <h3>Role Management</h3>
-                <div>dsfsdgfsdgg</div>
+                <p>Manage Roles and its permissions</p>
+                <button>Role</button>
             </div>
         );
     }
