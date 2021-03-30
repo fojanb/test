@@ -1,6 +1,23 @@
-.Card{
-    display: flex;
-    flex-direction: column;
-    color: black;
-    border: 1px solid black;
+.Card {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  width: 250px;
+  padding: 5px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 2px  rgb(171, 189, 196);
+  background-color: honeydew;
+  padding: 10px 12px;
+}
+.Card > h3 {
+  background-color: rgb(204, 180, 135);
+  padding: 20px;
+  color: whitesmoke;
+  border-radius: 4px;
+
+}
+.Card > button {
+  width: min-content;
 }
