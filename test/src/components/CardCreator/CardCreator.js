@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Card from "../Card/Card";
 import "./CardCreator.css";
 class CardCreator extends Component {
-  state = { showCard: false };
+  state = { showCard: false,message:"" };
   //---------------------Event Handlers Start--------------------------
   AddCardHandler = () => {
     let doesShow = this.state.showCard;
@@ -10,12 +10,15 @@ class CardCreator extends Component {
   };
 
   //---------------------Event Handlers End----------------------------
+  callbackFunction = (childData) => {
+    this.setState({ message: childData });
+  };
   render() {
     let card = null;
     if (this.state.showCard) {
       card = (
         <div>
-          <Card />
+          <Card parentCallback = {this.callbackFunction}/>
         </div>
       );
     }
