@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Card.css";
 class Card extends Component {
   state = { title: '' };
-  sendData = () => {
+  sendDataToParent = () => {
     this.props.parentCallback(this.state.title);
   };
   inputHandler = (e) => {
@@ -13,7 +13,7 @@ class Card extends Component {
       <div className="Card">
         <input onChange={this.inputHandler}></input>
         <p>Manage Roles and its permissions</p>
-        <button onClick={this.sendData}>Add</button>
+        <button onClick={this.sendDataToParent}>Add</button>
       </div>
     );
   }
