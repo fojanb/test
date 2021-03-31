@@ -24,7 +24,10 @@ class CardCreator extends Component {
       <div>
         <div className="CardCreator">
           <button onClick={this.createCard}>Create Card</button>
-          <div className="CardGrid">
+          <div className="DefaultCards">
+            <Card />
+            <Card />
+            <Card />
             {this.state.titleArray.map((title, index) => {
               return (
                 <div className="card">
@@ -32,6 +35,10 @@ class CardCreator extends Component {
                 </div>
               );
             })}
+          </div>
+
+          <div className="CardGrid">
+            
           </div>
         </div>
       </div>
