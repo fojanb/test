@@ -3,13 +3,13 @@ import Card from "../Card/Card";
 import "./CardCreator.css";
 class CardCreator extends Component {
   state = {
-    titleArray: [ ],
+    titleArray: [],
   };
 
   //---------------------Event Handlers Start------------------------
   createCard = () => {
     const title = this.state.titleArray;
-    title.push( title );
+    title.push(title);
     this.setState({ titleArray: title });
   };
   //---------------------CallBack Handler/state management----------------------------
@@ -24,8 +24,8 @@ class CardCreator extends Component {
       <div>
         <div className="CardCreator">
           <button onClick={this.createCard}>Create Card</button>
-          <div>
-            {this.state.titleArray.map((title,index) => {
+          <div className="CardGrid">
+            {this.state.titleArray.map((title, index) => {
               return (
                 <div className="card">
                   <Card parentCallback={this.callbackFunction} key={index} />
