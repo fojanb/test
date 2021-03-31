@@ -5,14 +5,11 @@ import "./App.css";
 class App extends Component {
   state = { title: "" };
 
-  callbackFunction = (childData) => {
-    this.setState({ title: childData });
-  };
   render() {
     return (
       <div className="App">
-        <SideBar newItem={this.state.title} />
-        <CardCreator parentCallback={this.callbackFunction} />
+        <SideBar/>
+        <CardCreator/>
       </div>
     );
   }
