@@ -17,7 +17,6 @@ class SideBar extends Component {
         <div className="items">Stats</div>
         <div className="items">Settings</div>
         <div className="items">Payment</div>
-        <div className="items">{this.props.newItem}</div>
         <div id="newCardName"></div>
       </div>
     );
