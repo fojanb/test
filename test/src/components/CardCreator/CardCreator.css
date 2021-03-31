@@ -15,3 +15,12 @@
   color: whitesmoke;
 
 }
+.DefaultCards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 900px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
