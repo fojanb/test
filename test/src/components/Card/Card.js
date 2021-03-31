@@ -12,7 +12,7 @@ class Card extends Component {
     return (
       <div className="Card">
         <input onChange={this.inputHandler}></input>
-        <p>Manage Roles and its permissions</p>
+        <p>Some lorem ipsum here</p>
         <button onClick={this.sendDataToParent}>Add</button>
       </div>
     );
