@@ -36,10 +36,6 @@ class CardCreator extends Component {
               );
             })}
           </div>
-
-          <div className="CardGrid">
-            
-          </div>
         </div>
       </div>
     );
